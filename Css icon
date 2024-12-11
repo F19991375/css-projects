@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML icon</title>
+    <link rel="stylesheet" href="icon.css">
+    <script src="https://kit.fontawesome.com/923a4ff15f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class = "icons">
+        <a>
+            <i class="fa-sharp fa-solid fa-house fa-5x"></i>
+        </a>
+        <a href = "https://twitter.com">
+            <i class="fa-sharp fa-brands fa-twitter fa-5x"></i>
+        </a>
+        <a href = "https://youtube.com">
+            <i class="fa-sharp fa-brands fa-youtube fa-5x"></i>
+        </a>
+        <a href = "https://tiktok.com">
+            <i class="fa-sharp fa-brands fa-tiktok fa-5x"></i>
+        </a>
+    </div>
+</body>
+</html>
+
+
+/*Css code down here*/
+
+.icons{
+    text-align: center;
+
+}
+
+.icons a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.fa-sharp.fa-solid.fa-house.fa-5x{
+    color: hsl(0, 0%, 66%);
+}
+
+
+.fa-sharp.fa-solid.fa-house.fa-5x:hover{
+    color: hsl(0, 0%, 76%);
+}
+
+
+
+.fa-sharp.fa-brands.fa-twitter.fa-5x{
+    color: hsl(188, 100%, 50%);
+}
+
+.fa-sharp.fa-brands.fa-twitter.fa-5x:hover{
+    color: hsl(188, 100%, 60%);
+}
+
+
+.fa-sharp.fa-brands.fa-youtube.fa-5x{
+    color: hsl(0, 100%, 50%);
+}
+
+
+.fa-sharp.fa-brands.fa-youtube.fa-5x:hover{
+    color: hsl(0, 100%, 60%);
+}
+
+.fa-sharp.fa-brands.fa-tiktok.fa-5x{
+    color: hsl(0, 0%, 10%);
+}
+
+.fa-sharp.fa-brands.fa-tiktok.fa-5x:hover{
+    color: hsl(0, 0%, 30%);
+}
